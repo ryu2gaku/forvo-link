@@ -1,0 +1,24 @@
+{
+  "name": "Forvo 搜索",
+  "description" : "🙂 使用 forvo 搜索右键选中的内容",
+  "version": "0.1",
+  "manifest_version": 2,
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "options_page": "options/options.html",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "author": "https://github.com/ryu2gaku",
+  "homepage_url": "https://github.com/ryu2gaku/forvo-link"
+}
