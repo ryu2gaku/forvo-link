@@ -1,3 +1,9 @@
+// NodeList.prototype.forEach()
+// Polyfill
+if (window.NodeList && !NodeList.prototype.forEach) {
+  NodeList.prototype.forEach = Array.prototype.forEach;
+}
+
 chrome.extension
   // global chrome.extension.getBackgroundPage()
   // 返回扩展里当前运行的 background 页面的 JavaScript “window” 对象。
